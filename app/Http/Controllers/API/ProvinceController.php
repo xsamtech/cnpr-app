@@ -11,7 +11,7 @@ use App\Http\Resources\Province as ResourcesProvince;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class ProvinceController extends BaseController
 {

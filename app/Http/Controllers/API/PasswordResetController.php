@@ -11,7 +11,7 @@ use App\Http\Resources\PasswordReset as ResourcesPasswordReset;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class PasswordResetController extends BaseController
 {

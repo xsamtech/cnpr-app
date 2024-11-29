@@ -8,7 +8,7 @@ use App\Http\Resources\Group as ResourcesGroup;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class GroupController extends BaseController
 {

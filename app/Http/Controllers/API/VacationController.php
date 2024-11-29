@@ -8,7 +8,7 @@ use App\Http\Resources\Vacation as ResourcesVacation;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class VacationController extends BaseController
 {

@@ -19,7 +19,7 @@ use Carbon\Carbon;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class HomeController extends Controller
 {

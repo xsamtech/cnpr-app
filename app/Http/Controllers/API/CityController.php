@@ -11,7 +11,7 @@ use App\Http\Resources\City as ResourcesCity;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class CityController extends BaseController
 {

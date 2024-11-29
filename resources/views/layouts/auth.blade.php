@@ -101,7 +101,7 @@
 
                             <div class="d-flex justify-content-between">
                                 <p class="text-center small">&copy; {{ date('Y') }} CNPR</p>
-                                <p class="text-center small">Designed by <a href="https://www.xsam-tech.com" target="_blank">Xsam Technologies</a></p>
+                                <p class="text-center small">Designed by <a href="https://www.xsamtech.com" target="_blank">Xsam Technologies</a></p>
                             </div>
                         </div>
                     </div>

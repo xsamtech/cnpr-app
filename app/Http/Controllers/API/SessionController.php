@@ -8,7 +8,7 @@ use App\Http\Resources\Session as ResourcesSession;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class SessionController extends BaseController
 {

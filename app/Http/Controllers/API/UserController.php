@@ -27,7 +27,7 @@ use Carbon\Carbon;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class UserController extends BaseController
 {

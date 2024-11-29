@@ -459,7 +459,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <p class="text-center small">&copy; {{ date('Y') }} CNPR<span class="d-inline-block mx-2"></span>@lang('miscellaneous.all_right_reserved')</p>
-                                <p class="text-center small">Designed by <a href="https://www.xsam-tech.com" target="_blank">Xsam Technologies</a></p>
+                                <p class="text-center small">Designed by <a href="https://www.xsamtech.com" target="_blank">Xsam Technologies</a></p>
                             </div>
                         </div>
                     </div>

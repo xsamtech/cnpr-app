@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Redirect;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class AdminController extends Controller
 {

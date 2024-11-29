@@ -1,7 +1,7 @@
 <?php
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 
 use Carbon\Carbon;

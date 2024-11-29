@@ -21,7 +21,7 @@ use App\Http\Resources\Message as ResourcesMessage;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class MessageController extends BaseController
 {

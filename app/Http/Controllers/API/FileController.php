@@ -8,7 +8,7 @@ use App\Http\Resources\File as ResourcesFile;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class FileController extends BaseController
 {

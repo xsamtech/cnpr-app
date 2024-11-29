@@ -9,7 +9,7 @@ use App\Http\Resources\Status as ResourcesStatus;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class StatusController extends BaseController
 {

@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class AppServiceProvider extends ServiceProvider
 {

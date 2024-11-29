@@ -14,7 +14,7 @@ use App\Http\Resources\Task as ResourcesTask;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class TaskController extends BaseController
 {

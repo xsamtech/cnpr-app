@@ -8,7 +8,7 @@ use App\Http\Resources\PaidUnpaid as ResourcesPaidUnpaid;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class PaidUnpaidController extends BaseController
 {

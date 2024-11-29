@@ -11,7 +11,7 @@ use App\Http\Resources\Notification as ResourcesNotification;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class NotificationController extends BaseController
 {

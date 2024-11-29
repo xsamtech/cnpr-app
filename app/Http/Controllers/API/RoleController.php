@@ -8,7 +8,7 @@ use App\Http\Resources\Role as ResourcesRole;
 
 /**
  * @author Xanders
- * @see https://www.xsam-tech.com
+ * @see https://www.xsamtech.com
  */
 class RoleController extends BaseController
 {
