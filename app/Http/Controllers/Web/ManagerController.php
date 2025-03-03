@@ -521,7 +521,7 @@ class ManagerController extends Controller
     }
 
     /**
-     * GET: Employees list page
+     * GET: Tasks list page
      *
      * @return \Illuminate\View\View
      */
@@ -531,24 +531,19 @@ class ManagerController extends Controller
         $user = $this::$api_client_manager::call('GET', getApiURL() . '/user/' . Auth::user()->id, getApiToken());
         // All unread notifications
         $notification = $this::$api_client_manager::call('GET', getApiURL() . '/notification/select_unread_by_user/'. Auth::user()->id, getApiToken());
-        // All departments
-        $departments = $this::$api_client_manager::call('GET', getApiURL() . '/department', getApiToken());
-
         // Find user ordinary message
         $ordinary_message_name = 'Message ordinaire';
         $message = $this::$api_client_manager::call('GET', getApiURL() . '/message/chat_role/'. $ordinary_message_name . '/' . $user->data->roles[0]->role_name, getApiToken());
-
-        // Select all vacations of this year
-        $this_year_vacations = $this::$api_client_manager::call('GET', getApiURL() . '/vacation/find_by_year/' . date('Y'), getApiToken());
+        // All departments
+        $departments = $this::$api_client_manager::call('GET', getApiURL() . '/department', getApiToken());
         // Select all employees of the current user branch
         $employees_presence_payment = $this::$api_client_manager::call('GET', getApiURL() . '/presence_absence/find_by_branch_date/' . $user->data->branches[0]->id . '/' . Carbon::today()->toDateString(), getApiToken());
 
-        return view('employee', [
+        return view('tasks', [
             'current_user' => $user->data,
             'ordinary_chats' => $message->data,
             'unread_notifications' => $notification->data,
             'departments' => $departments->data,
-            'this_year_vacations' => $this_year_vacations->data,
             'all_employees' => $employees_presence_payment->data
         ]);
     }

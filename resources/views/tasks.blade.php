@@ -2,7 +2,7 @@
 
 @section('app-content')
 
-    @if (Route::is('employee.home'))
+    @if (Route::is('task.home'))
         @if (inArrayR('Manager', $current_user->roles, 'role_name'))
             @include('partials.manager.tasks.home')
         @else
@@ -10,7 +10,7 @@
         @endif
     @endif
 
-    @if (Route::is('employee.datas'))
+    @if (Route::is('task.datas'))
         @if (inArrayR('Manager', $current_user->roles, 'role_name'))
             @include('partials.manager.tasks.datas')
         @else
